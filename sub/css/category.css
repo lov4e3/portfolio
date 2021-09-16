@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@media all and (max-width:500px) {
+    #sub-category {
+        right: 10px !important;
+    }
+
+    #sub-cate-wrap {
+        display: none;
+    }
+
+    #category a {
+        font-size: 16px !important;
+    }
+}

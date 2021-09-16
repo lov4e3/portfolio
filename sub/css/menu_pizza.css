@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+b,
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.price {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/*////////////#main-bg///////////////////////////////////*/
+#main-bg {
+    margin-top: 168px;
+    width: 100%;
+    height: 210px;
+    position: relative;
+    background: url(../image/menu/c_pizza/bg-pizza.jpg) no-repeat top/cover;
+}
+
+#main-bg>.color {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+    text-indent: -99999999999px;
+}
+
+#main-bg>.txt {
+    width: 260px;
+    height: 90px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: url(../image/common/ruler_b.png) no-repeat;
+    background-position: bottom center;
+    background-size: 92%;
+    text-indent: 8px;
+}
+
+/*////////////#category///////////////////////////////////*/
+#category {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    background: url(../image/common/category_ptn.png);
+    margin-bottom: 20px;
+}
+
+#category .a-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#category a {
+    width: 16.66%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#category a.steak {
+    border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+#category a:hover {
+    font-weight: bold;
+}
+
+#category a.pizza {
+    background-color: #5c1905;
+    color: #fff;
+}
+
+/*////////////#sub-category///////////////////////////////////*/
+#sub-cate-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sub-category {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#sub-category li {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    margin-right: 2px;
+    line-height: 16px;
+}
+
+#sub-category li:last-child {
+    margin-right: 0;
+}
+
+#sub-category li.home {
+    background: url(../image/common/btn_home.png) no-repeat;
+    background-position: center center;
+    width: 12px;
+    text-indent: -99999999999px;
+}
+
+#sub-category li.arrow {
+    background: url(../image/common/arrow.png) no-repeat;
+    background-position: center center;
+    width: 12px;
+    text-indent: -99999999999px;
+}
+
+/*////////////#menu-wrap///////////////////////////////////*/
+#menu-wrap {
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 100px 0 150px;
+}
+
+/*////////////#pizza///////////////////////////////////*/
+#pizza {
+    width: 100%;
+}
+
+#pizza .txt-box {
+    width: 100%;
+    height: 60px;
+    background: url(../image/menu/c_pizza/pizza_icon.png) no-repeat;
+    background-position: left top;
+    margin-bottom: 20px;
+}
+
+#pizza .txt-box h3 {
+    color: #5c1905;
+    font-size: 26px;
+    text-align: center;
+    float: left;
+    width: 130px;
+    height: 54px;
+    background: url(../image/menu/c_pizza/pizza_line.png) no-repeat;
+    background-position: bottom center;
+    margin-left: 30px;
+}
+
+#pizza .txt-box p {
+    color: #5c1905;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    position: relative;
+    top: 10px;
+}
+
+
+/***** text *******/
+.title {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+
+.title>b {
+    color: #444;
+    font-size: 14px;
+}
+
+/***** line *******/
+.line-bold {
+    width: 100%;
+    height: 3px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+.line-light {
+    width: 100%;
+    height: 2px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+/*////////////menu-box//////////////*/
+#pizza ul.menu {
+    width: 100%;
+}
+
+#pizza .menu li.menu-box {
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#pizza .box-img {
+    float: left;
+    width: 32%;
+    margin-right: 5%;
+}
+
+#pizza .box-img img {
+    width: 100%;
+}
+
+#pizza ul.txt-wrap {
+    float: left;
+    width: 50%;
+}
+
+#pizza .info {
+    color: #444;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+#pizza .change {
+    letter-spacing: -0.9px;
+}
+
+#pizza .time {
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pizza .price {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-shadow: 0 0 1px #5c1905;
+}
+
+
+
+@media all and (max-width:500px) {
+    #main-bg {
+        margin-top: 60px;
+        width: 100%;
+        height: 210px;
+    }
+
+
+    #main-bg>.txt {
+        width: 180px;
+        height: 62px;
+        font-size: 20px;
+        background: url(../image/common/ruler_b.png) no-repeat;
+        background-position: bottom center;
+        background-size: 90%;
+        letter-spacing: 2px;
+    }
+
+    /*////////////#category///////////////////////////////////*/
+    #category {
+        width: 100%;
+        height: 180px;
+        background-color: #eee;
+        background: url(../image/common/category_ptn.png);
+        margin-bottom: 20px;
+    }
+
+    #category .a-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        transform: translate(0);
+    }
+
+    #category .a-wrap a {
+        width: 50%;
+        height: 33.33%;
+        font-size: 14px;
+        padding: 0 10px;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        display: block;
+    }
+
+
+    /*////////////#sub-category///////////////////////////////////*/
+    #sub-cate-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 20px;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+
+
+    #sub-category li {
+        font-size: 12px;
+    }
+
+
+
+    /*////////////#menu-wrap///////////////////////////////////*/
+    #menu-wrap {
+        width: 90%;
+        max-width: 1000px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-top: 100px;
+        margin-bottom: 150px;
+
+        /* outline: 3px solid; */
+    }
+
+    #menu-wrap .txt-box {
+        width: 100%;
+        background-position: left top;
+        margin-bottom: 40px;
+    }
+
+    #menu-wrap .txt-box h3 {
+        color: #5c1905;
+        text-transform: uppercase;
+        width: 80px;
+        height: 44px;
+        float: left;
+        background-position: center 85%;
+        background-size: 90%;
+        margin-left: 54px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        margin-bottom: 4px;
+        margin-top: 20px;
+    }
+
+    #menu-wrap .txt-box p {
+        font-size: 13px;
+        color: #5c1905;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        letter-spacing: -0.6px;
+        width: 100%;
+    }
+
+
+    /*////////////menu-box//////////////*/
+    #risotto ul.menu {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #menu-wrap>div .menu li.menu-box {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    #menu-wrap ul.txt-wrap {
+        width: 63%;
+    }
+
+
+    #menu-wrap .info {
+        color: #444;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
+
+
+    #menu-wrap .time {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+
+    #menu-wrap .price {
+        color: #5c1905;
+        font-weight: bold;
+        text-shadow: 0 0 1px #5c1905;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+        margin: 0 2px;
+    }
+
+}

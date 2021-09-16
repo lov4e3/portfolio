@@ -1,0 +1,459 @@
+/*////////////HEADER///////////////////////////////////*/
+header {
+    width: 100%;
+    height: 168px;
+    background: url(../image/header/header_ptn.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+header .header-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header #headerLogo {
+    width: 220px;
+    height: 118px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+/*login box*/
+.signBox {
+    height: 118px;
+    line-height: 118px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.signBox .signIn {
+    width: 100%;
+    height: 100%;
+}
+
+.signBox .signIn a {
+    display: block;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 13px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 39px;
+}
+
+.signBox .signIn a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.signBox .signOut p {
+    color: #fff;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+
+.signBox .signOut .nickname {
+    color: #fff;
+    font-size: 24px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.signBox .signOut button {
+    display: block;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 30px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 39px;
+}
+
+.signBox .signOut button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+/* mobile-menu */
+.mobile-menu {
+    width: 100%;
+    padding: 20px 0 0 20px;
+    box-sizing: border-box;
+    background-color: #b61221;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.mobile-menu ul {
+    width: 100%;
+}
+
+.mobile-menu ul li {
+    margin-bottom: 14px;
+    border-bottom: 1px solid #fff;
+    padding: 14px 0 8px;
+}
+
+.mobile-menu ul li:last-child {
+    border: 0;
+    margin-bottom: 8px;
+}
+
+.mobile-menu ul li a {
+    color: #fff;
+}
+
+.mobile-menu ul li a:hover {
+    font-weight: bold;
+}
+
+
+/* hambuger-menu */
+.hambuger-menu {
+    width: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+
+    display: none;
+}
+
+.hambuger-menu span {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    display: block;
+    border-radius: 20px;
+}
+
+.hambuger-menu span:nth-child(2) {
+    margin: 6px 0;
+}
+
+
+/*****#lnb***************/
+header #lnb {
+    width: 100%;
+    height: 50px;
+    background-color: #b61221;
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+}
+
+header #lnb::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -1px;
+    letter-spacing: 0;
+}
+
+header #lnb .lnbWrap {
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*****a*********************/
+#lnb a {
+    color: #fff;
+    display: block;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.lnbWrap>ul>li {
+    font-size: 18px;
+}
+
+.smenu li a {
+    font-size: 16px;
+    letter-spacing: -0.6px;
+    line-height: 46px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.smenu li:last-child a {
+    border-bottom: 0;
+}
+
+/*****#lnbLeft***************/
+header #lnb .lnbWrap .lnbLeft {
+    float: left;
+    width: 40%;
+}
+
+.lnbLeft>li {
+    float: left;
+    width: 32%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.lnbLeft>li:nth-child(2) {
+    width: 36%;
+}
+
+.lnbLeft>li>a {
+    line-height: 50px;
+    font-weight: bold;
+}
+
+/*****#lnbRight*********************/
+header #lnb .lnbWrap .lnbRight {
+    float: right;
+    width: 40%;
+}
+
+.lnbRight>li {
+    float: left;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.lnbRight>li:nth-child(2) {
+    width: 34%;
+}
+
+.lnbRight>li>a {
+    line-height: 50px;
+    font-weight: bold;
+}
+
+/*****#lnb:hover*******************/
+#lnb>.lnbWrap>ul>li:hover>a {
+    color: yellow;
+}
+
+.smenu>li {
+    background-color: #b61221;
+}
+
+.smenu>li:hover>a {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*****미디어쿼리 모바일버전***********************************/
+@media all and (max-width:500px) {
+    header {
+        width: 100%;
+        height: 60px;
+    }
+
+    header #headerLogo {
+        width: auto;
+        height: 100%;
+        top: 0;
+        transform: translateX(-50%);
+        left: 50%
+    }
+
+    header #headerLogo h1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    header #headerLogo a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    header #headerLogo a img {
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #lnb {
+        display: none;
+    }
+
+
+    /*login box*/
+    .signBox {
+        height: 60px;
+        line-height: 60px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-align: right;
+        border-collapse: collapse;
+        overflow: hidden;
+    }
+
+    .signBox .signIn {
+        width: 100%;
+        height: 100%;
+    }
+
+    .signBox .signIn a {
+        display: block;
+        text-align: center;
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #333;
+        font-size: 12px;
+        float: left;
+        margin-right: 6px;
+        margin-top: 15px;
+    }
+
+
+    .signBox .signOut p {
+        margin-right: 10px;
+        height: 100%;
+        font-size: 12px;
+        display: inline-block;
+        border-radius: 4px;
+        padding: 0;
+        display: none;
+    }
+
+    .signBox .signOut .nickname {
+        font-size: 14px;
+        padding-right: 4px;
+        font-weight: bold;
+    }
+
+    .signBox .signOut button {
+        display: block;
+        height: 30px;
+        border-radius: 4px;
+        padding: 0 14px;
+        border: 0;
+        outline: 0;
+        background-color: #fff;
+        margin-right: 10px;
+        cursor: pointer;
+        float: right;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+
+    .signBox .signIn a:hover {
+        background-color: #fff;
+        color: #333;
+    }
+
+    .signBox .signOut button:hover {
+        background-color: #fff;
+        color: #333;
+    }
+
+
+
+    /* mobile-menu */
+    .mobile-menu {
+        width: 100%;
+        padding: 10px 0 0 30px;
+        box-sizing: border-box;
+        background-color: #b61221;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+    }
+
+    .mobile-menu ul {
+        width: 100%;
+    }
+
+
+    .mobile-menu ul li {
+        margin-bottom: 6px;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0 8px;
+    }
+
+    .mobile-menu ul li:last-child {
+        border: 0;
+        margin-bottom: 6px;
+    }
+
+    .mobile-menu ul li a {
+        color: #fff;
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    .mobile-menu ul li a:hover {
+        font-weight: normal;
+    }
+
+
+
+    /* hambuger-menu */
+    .hambuger-menu {
+        width: 26px;
+        display: block;
+    }
+
+    .hambuger-menu span {
+        height: 4px;
+        background-color: #fff;
+        border-radius: 100px;
+        transition: all 1s;
+    }
+
+    .hambuger-menu span:nth-child(2) {
+        margin: 7px 0;
+    }
+
+    .hambuger-menu a {
+        width: 26px;
+        height: 26px;
+        background: url(../image/header/btn_close.png) no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+        transition: all .6s;
+        display: none;
+    }
+    .hambuger-menu:hover a {
+        transform: rotate(180deg);
+    }
+
+}

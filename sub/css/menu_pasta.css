@@ -1,0 +1,431 @@
+@charset "utf-8";
+
+
+.price {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.kor {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+
+.eng {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #5c1905;
+    font-size: 26px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*////////////#main-bg///////////////////////////////////*/
+#main-bg {
+    margin-top: 168px;
+    width: 100%;
+    height: 210px;
+    position: relative;
+    background: url(../image/menu/d_pasta/pasta-bg.jpg) no-repeat top/cover;
+}
+
+#main-bg > .color {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+    text-indent: -99999999999px;
+}
+
+#main-bg > .txt {
+    width: 260px;
+    height: 90px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: url(../image/common/ruler_b.png) no-repeat;
+    background-position: bottom center;
+    background-size: 92%;
+    text-indent: 8px;
+}
+
+/*////////////#category///////////////////////////////////*/
+#category {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    background: url(../image/common/category_ptn.png);
+    margin-bottom: 20px;
+}
+
+#category .a-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#category a {
+    width: 16.66%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#category a.steak {
+    border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+#category a:hover {
+    font-weight: bold;
+}
+
+#category a.pasta {
+    background-color: #5c1905;
+    color: #fff;
+}
+
+/*////////////#sub-category///////////////////////////////////*/
+#sub-cate-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sub-category {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#sub-category li {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    margin-right: 2px;
+    line-height: 16px;
+}
+
+#sub-category li:last-child {
+    margin-right: 0;
+}
+
+#sub-category li.home {
+    background: url(../image/common/btn_home.png) no-repeat;
+    background-position: center center;
+    width: 12px;
+    text-indent: -99999999999px;
+}
+
+#sub-category li.arrow {
+    background: url(../image/common/arrow.png) no-repeat;
+    background-position: center center;
+    width: 12px;
+    text-indent: -99999999999px;
+}
+
+/*////////////#pasta ~ .pasta-title///////////////////////////////////*/
+#pasta {
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 100px 0 150px;
+}
+
+.pasta-title {
+    width: 100%;
+    height: 70px;
+}
+
+.pasta-title img.title-icon {
+    float: left;
+    margin-right: 6px;
+}
+
+.pasta-title h3 {
+    float: left;
+    text-transform: uppercase;
+    background: url(../image/menu/d_pasta/pasta_line.png) no-repeat;
+    background-position: bottom center;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+.pasta-title .p-wrap {
+    float: left;
+    margin-top: 16px;
+    color: #5c1905;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*////////////#menu///////////////////////////////////*/
+.menu {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.menu > li.menu-box {
+    float: left;
+    width: 50%;
+    height: 160px;
+    margin-bottom: 60px;
+}
+
+.menu-box > div.thums {
+    float: left;
+    margin-right: 5%;
+}
+
+.menu-box > div.thums img {
+    width: 100%;
+}
+
+.menu-box > ul.txt-wrap {
+    float: left;
+    width: 52%;
+}
+
+
+/***** .title *******/
+.title {
+    letter-spacing: -0.6px;
+}
+
+/***** line *******/
+.line-bold {
+    width: 100%;
+    height: 3px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+.line-light {
+    width: 100%;
+    height: 2px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+/***** .txt-wrap>li *******/
+.txt-wrap > li {
+    width: 100%;
+}
+
+.txt-wrap > li.info {
+    color: #444;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+.txt-wrap > li.time {
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt-wrap > li.time > span.price {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-shadow: 0 0 1px #5c1905;
+}
+
+
+
+
+
+@media all and (max-width:500px) {
+    #main-bg {
+        margin-top: 60px;
+        width: 100%;
+        height: 210px;
+    }
+
+
+    #main-bg > .txt {
+        width: 180px;
+        height: 62px;
+        font-size: 20px;
+        background: url(../image/common/ruler_b.png) no-repeat;
+        background-position: bottom center;
+        background-size: 90%;
+        letter-spacing: 2px;
+    }
+
+    /*////////////#category///////////////////////////////////*/
+    #category {
+        width: 100%;
+        height: 180px;
+        background-color: #eee;
+        background: url(../image/common/category_ptn.png);
+        margin-bottom: 20px;
+    }
+
+    #category .a-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        transform: translate(0);
+    }
+
+    #category .a-wrap a {
+        width: 50%;
+        height: 33.33%;
+        font-size: 14px;
+        padding: 0 10px;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        display: block;
+    }
+
+
+    /*////////////#sub-category///////////////////////////////////*/
+    #sub-cate-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 20px;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+
+
+    #sub-category li {
+        font-size: 12px;
+    }
+
+
+
+    /*////////////#menu-wrap///////////////////////////////////*/
+    #pasta {
+        width: 90%;
+        max-width: 1000px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-top: 100px;
+        margin-bottom: 150px;
+
+        /* outline: 3px solid; */
+    }
+
+
+    #pasta .pasta-title h3 {
+        color: #5c1905;
+        text-transform: uppercase;
+        width: 80px;
+        height: 44px;
+        float: left;
+        background-position: center 85%;
+        background-size: 90%;
+        margin-left: 4px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+
+    #pasta .pasta-title p {
+        font-size: 13px;
+        color: #5c1905;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        letter-spacing: -0.6px;
+        width: 100%;
+    }
+
+
+    /*////////////menu-box//////////////*/
+
+    .menu li.menu-box {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+
+
+    .menu-box > div.thums {
+        width: 32%;
+        float: left;
+        margin-right: 5%;
+    }
+
+    .menu-box > div.thums img {
+        width: 100%;
+    }
+
+    .menu-box > ul.txt-wrap {
+        width: 63%;
+    }
+
+
+    #pasta .info {
+        color: #444;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
+
+
+    #pasta .time {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+
+    #pasta .price {
+        color: #5c1905;
+        font-weight: bold;
+        text-shadow: 0 0 1px #5c1905;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+        margin: 0 2px;
+    }
+
+}

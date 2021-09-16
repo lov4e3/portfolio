@@ -1,0 +1,692 @@
+@charset "utf-8";
+
+/*////////////#main-bg///////////////////////////////////*/
+#main-bg {
+    margin-top: 168px;
+    width: 100%;
+    height: 210px;
+    position: relative;
+    background: url(../image/menu/a_steak_salad/steak-bg.jpg) no-repeat top/cover;
+}
+
+#main-bg>.color {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+    opacity: 0.5;
+    text-indent: -99999px;
+}
+
+#main-bg>.txt {
+    width: 260px;
+    height: 90px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: url(../image/common/ruler_b.png) no-repeat;
+    background-position: bottom center;
+    background-size: 92%;
+    text-indent: 8px;
+}
+
+/*////////////#category///////////////////////////////////*/
+#category {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    background: url(../image/common/category_ptn.png);
+    margin-bottom: 20px;
+}
+
+#category .a-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#category .a-wrap a {
+    width: 16.66%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#category .a-wrap a.steak {
+    color: #fff;
+    background-color: #5c1905;
+}
+
+#category a:hover {
+    font-weight: bold;
+}
+
+/*////////////#sub-category///////////////////////////////////*/
+#sub-cate-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sub-category {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#sub-category li {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    margin-right: 2px;
+    line-height: 16px;
+}
+
+#sub-category li.home {
+    background: url(../image/common/btn_home.png) no-repeat;
+    background-position: center center;
+    text-indent: -99999px;
+    width: 12px;
+}
+
+#sub-category li.arrow {
+    background: url(../image/common/arrow.png) no-repeat;
+    background-position: center;
+    text-indent: -99999px;
+    width: 12px;
+}
+
+#sub-category li:last-child {
+    margin-right: 0;
+}
+
+/*////////////#menu-wrap///////////////////////////////////*/
+#menu-wrap {
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+/*////////////steak article.txt-box(title)///////////////////////////////////*/
+#menu-wrap #steak {
+    width: 100%;
+    margin-bottom: 140px;
+}
+
+#steak .txt-box {
+    width: 100%;
+    background: url(../image/menu/a_steak_salad/steak_icon.png) no-repeat;
+    background-position: left top;
+    margin-bottom: 20px;
+}
+
+#steak .txt-box h3 {
+    color: #5c1905;
+    text-transform: uppercase;
+    width: 100px;
+    height: 54px;
+    float: left;
+    background: url(../image/menu/a_steak_salad/steak_line.png) no-repeat;
+    background-position: center 85%;
+    margin-left: 66px;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+
+#steak .txt-box p {
+    font-size: 16px;
+    color: #5c1905;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 27px;
+}
+
+/*/////////////////////////////*/
+
+/***** text *******/
+.title {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+
+.title>b {
+    color: #444;
+    font-size: 14px;
+}
+
+/***** line *******/
+.line-bold {
+    width: 100%;
+    height: 3px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+.line-light {
+    width: 100%;
+    height: 2px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+/*////////////menu-box//////////////*/
+#steak ul.menu {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#steak .menu li.menu-box {
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#steak .pos {
+    width: 32%;
+    float: left;
+    margin-right: 5%;
+}
+
+#steak .pos img {
+    width: 100%;
+}
+
+#steak ul.txt-wrap {
+    float: left;
+    width: 51%;
+}
+
+/* Hit, New, line, title (Finsh)*/
+
+#steak .info {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+#steak .time {
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+}
+
+#steak .change {
+    width: 75%;
+}
+
+#steak .info1 {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+#steak .info2 {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+}
+
+#steak .info3 {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+}
+
+#steak .price {
+    float: right;
+    color: #5c1905;
+    font-weight: bold;
+    text-shadow: 0 0 1px #5c1905;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+}
+
+/*////////////#salad article.txt-box(title)///////////////////////////////////*/
+#salad {
+    width: 100%;
+}
+
+#salad .txt-box {
+    width: 100%;
+    background: url(../image/menu/a_steak_salad/salad_icon.png) no-repeat;
+    background-position: left top;
+    margin-bottom: 20px;
+}
+
+#salad .txt-box h3 {
+    color: #5c1905;
+    text-transform: uppercase;
+    width: 100px;
+    height: 54px;
+    float: left;
+    background: url(../image/menu/a_steak_salad/salad_line.png) no-repeat;
+    background-position: center 85%;
+    margin-left: 66px;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+
+#salad .txt-box p {
+    font-size: 16px;
+    color: #5c1905;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 27px;
+}
+
+/*/////////////////////////////*/
+/*////////////menu-box//////////////*/
+
+#salad ul.menu {
+    width: 100%;
+}
+
+#salad .menu li.menu-box {
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#salad .pos {
+    width: 32%;
+    float: left;
+    margin-right: 5%;
+}
+
+#salad .pos img {
+    width: 100%;
+}
+
+#salad ul.txt-wrap {
+    float: left;
+    width: 51%;
+}
+
+/* Hit, New, line, title (Finsh)*/
+
+#salad .info {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+#salad .time {
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+}
+
+#salad .separate {
+    float: right;
+    margin-top: 15px;
+    color: #777;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#salad .price {
+    float: right;
+    color: #5c1905;
+    font-weight: bold;
+    text-shadow: 0 0 1px #5c1905;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+}
+
+
+
+@media all and (max-width:500px) {
+    #main-bg {
+        margin-top: 60px;
+        width: 100%;
+        height: 210px;
+    }
+
+
+    #main-bg>.txt {
+        width: 180px;
+        height: 62px;
+        font-size: 20px;
+        background: url(../image/common/ruler_b.png) no-repeat;
+        background-position: bottom center;
+        background-size: 90%;
+        letter-spacing: 2px;
+    }
+
+    /*////////////#category///////////////////////////////////*/
+    #category {
+        width: 100%;
+        height: 180px;
+        background-color: #eee;
+        background: url(../image/common/category_ptn.png);
+        margin-bottom: 20px;
+    }
+
+    #category .a-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        transform: translate(0);
+    }
+
+    #category .a-wrap a {
+        width: 50%;
+        height: 33.33%;
+        font-size: 14px;
+        padding: 0 10px;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        display: block;
+    }
+
+
+    /*////////////#sub-category///////////////////////////////////*/
+    #sub-cate-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 20px;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+
+
+    #sub-category li {
+        font-size: 12px;
+    }
+
+
+
+    /*////////////#menu-wrap///////////////////////////////////*/
+    #menu-wrap {
+        width: 90%;
+        max-width: 1000px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-top: 100px;
+        margin-bottom: 150px;
+
+        /* outline: 3px solid; */
+    }
+
+    /*////////////steak article.txt-box(title)///////////////////////////////////*/
+    #menu-wrap #steak {
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+    #steak .txt-box {
+        width: 100%;
+        background: url(../image/menu/a_steak_salad/steak_icon.png) no-repeat;
+        background-position: left top;
+        margin-bottom: 20px;
+    }
+
+    #steak .txt-box h3 {
+        color: #5c1905;
+        text-transform: uppercase;
+        width: 80px;
+        height: 44px;
+        float: left;
+        background: url(../image/menu/a_steak_salad/steak_line.png) no-repeat;
+        background-position: center 85%;
+        background-size: 100%;
+        margin-left: 74px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #steak .txt-box p {
+        font-size: 13px;
+        color: #5c1905;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    /*/////////////////////////////*/
+
+    /***** text *******/
+    .title {
+        color: #5c1905;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: -0.6px;
+    }
+
+    .title>b {
+        color: #444;
+        font-size: 14px;
+    }
+
+    /***** line *******/
+    .line-bold {
+        width: 100%;
+        height: 3px;
+        background-color: #5c1905;
+        border-radius: 10px;
+        text-indent: -999999px;
+        margin: 10px 0;
+    }
+
+    .line-light {
+        width: 100%;
+        height: 2px;
+        background-color: #5c1905;
+        border-radius: 10px;
+        text-indent: -999999px;
+        margin: 10px 0;
+    }
+
+    /*////////////menu-box//////////////*/
+    #steak ul.menu {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #steak .menu li.menu-box {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    #steak ul.txt-wrap {
+        width: 63%;
+    }
+
+
+    #steak .info {
+        color: #444;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
+
+    #steak .time {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+
+    #steak .change {
+        width: 90%;
+    }
+
+    #steak .info1 {
+        color: #444;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
+
+    #steak .info1 br {
+        display: none;
+    }
+
+    #steak .info2 {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    #steak .info3 {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    #steak .price {
+        float: right;
+        color: #5c1905;
+        font-weight: bold;
+        text-shadow: 0 0 1px #5c1905;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+    }
+
+    /*////////////#salad article.txt-box(title)///////////////////////////////////*/
+    #salad .txt-box {
+        width: 100%;
+        background: url(../image/menu/a_steak_salad/salad_icon.png) no-repeat;
+        background-position: left top;
+        margin-bottom: 20px;
+    }
+
+    #salad .txt-box h3 {
+        color: #5c1905;
+        text-transform: uppercase;
+        width: 80px;
+        height: 44px;
+        float: left;
+        background-position: center 85%;
+        background-size: 100%;
+        margin-left: 74px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        margin-bottom: 20px;
+    }
+
+    #salad .txt-box p {
+        font-size: 13px;
+        color: #5c1905;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    /*/////////////////////////////*/
+    /*////////////menu-box//////////////*/
+
+    #salad ul.menu {
+        width: 100%;
+    }
+
+    #salad .menu li.menu-box {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+
+    #salad ul.txt-wrap {
+        width: 63%;
+    }
+
+    #salad .info {
+        color: #444;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
+
+    #salad .time {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+
+    #salad .separate {
+        float: right;
+        margin-top: 15px;
+        color: #777;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    #salad .price {
+        float: right;
+        color: #5c1905;
+        font-weight: bold;
+        text-shadow: 0 0 1px #5c1905;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,617 @@
+@charset "utf-8";
+
+b,
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.price {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/*////////////#main-bg///////////////////////////////////*/
+#main-bg {
+    margin-top: 168px;
+    width: 100%;
+    height: 210px;
+    position: relative;
+    background: url(../image/menu/b_risotto_pilaf/risotto-bg.jpg) no-repeat top/cover;
+}
+
+#main-bg > .color {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+    opacity: 0.6;
+    text-indent: -99999999px;
+}
+
+#main-bg > .txt {
+    width: 260px;
+    height: 90px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: url(../image/common/ruler_b.png) no-repeat;
+    background-position: bottom center;
+    background-size: 92%;
+    text-indent: 8px;
+}
+
+/*////////////#category///////////////////////////////////*/
+#category {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    background: url(../image/common/category_ptn.png);
+    margin-bottom: 20px;
+}
+
+#category .a-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#category .a-wrap a {
+    width: 16.66%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #333;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#category a.steak {
+    border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+#category .a-wrap a.risotto {
+    color: #fff;
+    background-color: #5c1905;
+}
+
+#category a:hover {
+    font-weight: bold;
+}
+
+/*////////////#sub-category///////////////////////////////////*/
+#sub-cate-wrap {
+    width: 100%;
+    max-width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sub-category {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#sub-category li {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    margin-right: 2px;
+    line-height: 16px;
+}
+
+#sub-category li:last-child {
+    margin-right: 0;
+}
+
+#sub-category li.home {
+    width: 12px;
+    height: 16px;
+    background: url(../image/common/btn_home.png) no-repeat;
+    background-position: center center;
+    text-indent: -999999999px;
+}
+
+#sub-category li.arrow {
+    width: 12px;
+    height: 16px;
+    background: url(../image/common/arrow.png) no-repeat;
+    background-position: center center;
+    text-indent: -9999999px;
+}
+
+/*////////////#menu-wrap///////////////////////////////////*/
+#menu-wrap {
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+/*////////////risotto article.txt-box(title)///////////////////////////////////*/
+#risotto {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#risotto .txt-box {
+    width: 100%;
+    background: url(../image/menu/b_risotto_pilaf/risotto_icon.png) no-repeat;
+    background-position: left top;
+    margin-bottom: 20px;
+}
+
+#risotto .txt-box h3 {
+    color: #5c1905;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    width: 130px;
+    height: 54px;
+    float: left;
+    background: url(../image/menu/b_risotto_pilaf/risotto_line.png) no-repeat;
+    background-position: center 85%;
+    margin-left: 66px;
+}
+
+#risotto .txt-box p {
+    font-size: 16px;
+    color: #5c1905;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 30px;
+    float: left;
+}
+
+
+/***** text *******/
+.title {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+
+.title > b {
+    color: #444;
+    font-size: 14px;
+}
+
+/***** line *******/
+.line-bold {
+    width: 100%;
+    height: 3px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+.line-light {
+    width: 100%;
+    height: 2px;
+    background-color: #5c1905;
+    border-radius: 10px;
+    text-indent: -999999px;
+    margin: 10px 0;
+}
+
+/*////////////menu-box//////////////*/
+#risotto ul.menu {
+    width: 100%;
+}
+
+#risotto .menu li.menu-box {
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#risotto .box-img {
+    width: 32%;
+    float: left;
+    margin-right: 5%;
+}
+
+#risotto .box-img img {
+    width: 100%;
+}
+
+#risotto ul.txt-wrap {
+    float: left;
+    width: 51%;
+}
+
+#risotto .info {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+#risotto .time {
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#risotto .price {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-shadow: 0 0 1px #5c1905;
+}
+
+/*////////////pilaf article.txt-box(title)///////////////////////////////////*/
+#pilaf {
+    width: 100%;
+}
+
+#pilaf .txt-box {
+    width: 100%;
+    background: url(../image/menu/b_risotto_pilaf/pilaf_icon.png) no-repeat;
+    background-position: left top;
+    margin-bottom: 20px;
+}
+
+#pilaf .txt-box h3 {
+    color: #5c1905;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    width: 130px;
+    height: 54px;
+    float: left;
+    background: url(../image/menu/b_risotto_pilaf/pilaf_line.png) no-repeat;
+    background-position: center 85%;
+    margin-left: 66px;
+}
+
+#pilaf .txt-box p {
+    font-size: 16px;
+    color: #5c1905;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+#pilaf ul.menu {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#pilaf .menu li.menu-box {
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+#pilaf .box-img {
+    width: 32%;
+    float: left;
+    margin-right: 5%;
+}
+
+#pilaf .box-img img {
+    width: 100%;
+}
+
+#pilaf ul.txt-wrap {
+    float: left;
+    width: 51%;
+}
+
+#pilaf .info {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+}
+
+#pilaf .time {
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pilaf .price {
+    color: #5c1905;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-shadow: 0 0 1px #5c1905;
+}
+
+
+
+
+@media all and (max-width:500px) {
+    #main-bg {
+        margin-top: 60px;
+        width: 100%;
+        height: 210px;
+    }
+
+
+    #main-bg > .txt {
+        width: 180px;
+        height: 62px;
+        font-size: 20px;
+        background: url(../image/common/ruler_b.png) no-repeat;
+        background-position: bottom center;
+        background-size: 90%;
+        letter-spacing: 2px;
+    }
+
+    /*////////////#category///////////////////////////////////*/
+    #category {
+        width: 100%;
+        height: 180px;
+        background-color: #eee;
+        background: url(../image/common/category_ptn.png);
+        margin-bottom: 20px;
+    }
+
+    #category .a-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        transform: translate(0);
+    }
+
+    #category .a-wrap a {
+        width: 50%;
+        height: 33.33%;
+        font-size: 14px;
+        padding: 0 10px;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        display: block;
+    }
+
+
+    /*////////////#sub-category///////////////////////////////////*/
+    #sub-cate-wrap {
+        width: 100%;
+        max-width: 1200px;
+        height: 20px;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+
+
+    #sub-category li {
+        font-size: 12px;
+    }
+
+
+
+    /*////////////#menu-wrap///////////////////////////////////*/
+    #menu-wrap {
+        width: 90%;
+        max-width: 1000px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-top: 100px;
+        margin-bottom: 150px;
+
+        /* outline: 3px solid; */
+    }
+
+    /*////////////steak article.txt-box(title)///////////////////////////////////*/
+    #menu-wrap #risotto {
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+    #risotto .txt-box {
+        width: 100%;
+        background-position: left top;
+        margin-bottom: 20px;
+    }
+
+    #risotto .txt-box h3 {
+        color: #5c1905;
+        text-transform: uppercase;
+        width: 80px;
+        height: 44px;
+        float: left;
+        background-position: center 85%;
+        background-size: 100%;
+        margin-left: 74px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #risotto .txt-box p {
+        font-size: 13px;
+        color: #5c1905;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    /*/////////////////////////////*/
+
+    /***** text *******/
+    .title {
+        color: #5c1905;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: -0.6px;
+    }
+
+    .title > b {
+        color: #444;
+        font-size: 14px;
+    }
+
+    /***** line *******/
+    .line-bold {
+        width: 100%;
+        height: 3px;
+        background-color: #5c1905;
+        border-radius: 10px;
+        text-indent: -999999px;
+        margin: 10px 0;
+    }
+
+    .line-light {
+        width: 100%;
+        height: 2px;
+        background-color: #5c1905;
+        border-radius: 10px;
+        text-indent: -999999px;
+        margin: 10px 0;
+    }
+
+    /*////////////menu-box//////////////*/
+    #risotto ul.menu {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #risotto .menu li.menu-box {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    #risotto ul.txt-wrap {
+        width: 63%;
+    }
+
+
+    #risotto .info {
+        color: #444;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
+
+    #risotto .time {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+
+    #risotto .price {
+        color: #5c1905;
+        font-weight: bold;
+        text-shadow: 0 0 1px #5c1905;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+        margin: 0 2px;
+    }
+
+    /*////////////#salad article.txt-box(title)///////////////////////////////////*/
+    #pilaf .txt-box {
+        width: 100%;
+        background-position: left top;
+        margin-bottom: 20px;
+    }
+
+    #pilaf .txt-box h3 {
+        color: #5c1905;
+        text-transform: uppercase;
+        width: 80px;
+        height: 44px;
+        float: left;
+        background-position: center 85%;
+        background-size: 80%;
+        margin-left: 74px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        margin-bottom: 20px;
+        margin-top: 6px;
+    }
+
+    #pilaf .txt-box p {
+        font-size: 13px;
+        color: #5c1905;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+        line-height: 20px;
+        letter-spacing: -0.4px;
+    }
+
+    /*/////////////////////////////*/
+    /*////////////menu-box//////////////*/
+
+
+    #pilaf .menu li.menu-box {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+
+    #pilaf ul.txt-wrap {
+        width: 63%;
+    }
+
+    #pilaf .info {
+        color: #444;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
+
+    #pilaf .time {
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+    }
+
+
+    #pilaf .price {
+        color: #5c1905;
+        font-weight: bold;
+        text-shadow: 0 0 1px #5c1905;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+        margin: 0 2px;
+    }
+
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.menu img {
+    transition: all .6s;
+}
+
+.menu img:hover {
+    transform: scale(1.15);
+}
+
+/***** icon *******/
+.Hit {
+    background: url(../image/menu/icon/icon_hit.jpg) no-repeat;
+    background-position: center center;
+    text-indent: -999999px;
+    display: inline-block;
+    width: 20px;
+}
+
+.New {
+    background: url(../image/menu/icon/icon_new.jpg) no-repeat;
+    background-position: center center;
+    text-indent: -999999px;
+    display: inline-block;
+    width: 20px;
+}
+
+.Spicy {
+    background: url(../image/menu/icon/icon_spicy.jpg) no-repeat;
+    background-position: center center;
+    text-indent: -999999px;
+    display: inline-block;
+    width: 14px;
+}
+
+.Season {
+    background: url(../image/menu/icon/icon_season.jpg) no-repeat;
+    background-position: center center;
+    text-indent: -9999999px;
+    display: inline-block;
+    width: 35px;
+}
+
+
+@media all and (max-width:500px) {
+    .menu img:hover {
+        transform: none;
+    }
+
+    #category .a-wrap a:nth-child(2n+1) {
+        border-left: 0;
+    }
+
+    #category .a-wrap a:nth-child(2n) {
+        border-right: 0;
+    }
+}
+
+

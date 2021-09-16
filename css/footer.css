@@ -1,0 +1,106 @@
+
+/*////////////FOOTER///////////////////////////////////*/
+footer {
+    width: 100%;
+    padding: 20px 0 40px;
+    box-sizing: border-box;
+    background-color: #2a0f08;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#footerInner {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footerInner::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footerInner h2 {
+    float: left;
+    width: 270px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+#footerInner h2 img {
+    width: 100%;
+    margin-top: 11px;
+}
+
+#footerInner .txt-wrap {
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    float: left;
+    width: 75%;
+}
+
+#footerInner address {
+    font-style: normal;
+}
+
+#footerInner p .icon_email a {
+    margin-left: 10px;
+    background: url(../image/footer/footer_icon_email.png) no-repeat;
+    background-position: left 70%;
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+}
+
+#footerInner p .icon_email a:hover {
+    color: #fff;
+}
+
+
+
+/*****미디어쿼리 모바일버전***********************************/
+@media all and (max-width:500px) {
+    footer {
+        width: 100%;
+        padding: 20px 0 40px;
+        /*height: 100%;
+        box-sizing: border-box;*/
+    }
+
+    #footerInner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #footerInner h2 {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        /*outline: 2px solid;*/
+    }
+
+    #footerInner h2 img {
+        width: 270px;
+        display: inline-block;
+    }
+
+    #footerInner .txt-wrap {
+        font-size: 13px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #footerInner address {
+        margin-bottom: 10px;
+    }
+
+    #footerInner p .icon_email a:hover {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}

@@ -1,0 +1,345 @@
+@charset "utf-8";
+
+.inner-section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 168px auto 0px;
+    padding: 80px 0 80px;
+}
+
+.inner-section h2 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+
+.viewBox {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.viewBox table {
+    width: 100%;
+    border-top: 3px solid #ea002c;
+}
+
+.viewBox table thead th {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    font-weight: normal;
+    position: relative;
+}
+
+.viewBox table thead .title {
+    display: block;
+    text-align: left;
+    font-size: 26px;
+    font-size: 1.625rem;
+}
+
+
+.viewBox table thead .sub-title {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.viewBox table thead .writer {
+    color: #333;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+}
+
+.viewBox table thead .writer::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80%;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -13px;
+}
+
+.viewBox table thead .writer .name {
+    color: #666;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+
+.viewBox table thead .date {
+    color: #333;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.viewBox table thead .date .day {
+    color: #666;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+
+.viewBox table tbody {
+    display: block;
+    width: 100%;
+    /*padding: 0 20px;*/
+    box-sizing: border-box;
+}
+
+.viewBox table tbody tr {
+    width: 100%;
+    padding: 20px 0 100px 30px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.viewBtn {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.viewBtn a {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.pageList {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 2px solid #000;
+}
+
+.pageList tr {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.pageList tr th {
+    width: 20%;
+    background-color: rgba(92, 25, 5, 0.84);
+    padding: 14px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pageList tr td {
+    width: 80%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.pageList tr td a {
+    color: #333;
+    display: inline-block;
+    position: relative;
+}
+
+.pageList tr td a:hover::after {
+    content: "";
+    display: block;
+    width: 108%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    bottom: -2px;
+    left: -4px;
+}
+
+
+
+
+@media all and (max-width:500px) {
+
+    .inner-section {
+        margin: 60px auto 0px;
+    }
+
+    .inner-section h2 {
+        font-size: 26px;
+        font-size: 1.625rem;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+
+    .viewBox {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .viewBox table {
+        width: 100%;
+        border-top: 2px solid #ea002c;
+    }
+
+    .viewBox table thead th {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        font-weight: normal;
+        position: relative;
+    }
+
+    .viewBox table thead .title {
+        text-align: left;
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+
+    .viewBox table thead .sub-title {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+
+    .viewBox table thead .writer {
+        color: #333;
+        display: inline-block;
+        margin-right: 14px;
+        font-size: 14px;
+        font-weight: 800;
+        position: relative;
+    }
+
+    .viewBox table thead .writer::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 80%;
+        background-color: #ccc;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -9px;
+    }
+
+    .viewBox table thead .writer .name {
+        color: #666;
+        margin-left: 6px;
+        font-size: 12px;
+        font-weight: normal;
+        display: inline-block;
+    }
+
+
+    .viewBox table thead .date {
+        color: #333;
+        display: inline-block;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .viewBox table thead .date .day {
+        color: #666;
+        font-size: 12px;
+        margin-left: 10px;
+        font-weight: normal;
+        display: inline-block;
+    }
+
+
+    .viewBox table tbody {
+        display: block;
+        width: 100%;
+        /*padding: 0 20px;*/
+        box-sizing: border-box;
+    }
+
+    .viewBox table tbody tr {
+        width: 100%;
+        padding: 15px 0 80px 20px;
+        display: block;
+        box-sizing: border-box;
+        border-bottom: 1px solid #ccc;
+        font-size: 15px;
+    }
+
+
+    .viewBtn {
+        width: 100%;
+        text-align: right;
+        margin-bottom: 30px;
+    }
+
+    .viewBtn a {
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+    .pageList {
+        width: 100%;
+        border-collapse: collapse;
+        border-top: 2px solid #000;
+    }
+
+    .pageList tr {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .pageList tr th {
+        width: 30%;
+        background-color: rgba(92, 25, 5, 0.84);
+        padding: 15px 0;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .pageList tr td {
+        width: 70%;
+        padding-left: 14px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .pageList tr td a {
+        color: #333;
+        display: inline-block;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .pageList tr td a:hover::after {
+        display: none;
+    }
+
+
+}
